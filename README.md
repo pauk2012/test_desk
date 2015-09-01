@@ -1,29 +1,16 @@
-# README #
+Установка
 
-This README would normally document whatever steps are necessary to get your application up and running.
+создать базу данных  test_desk
 
-### What is this repository for? ###
+распаковать проект в дирикторию доступную вебсерверу
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+зайти в корневую директорию проекта
 
-### How do I get set up? ###
+Залить дамп данных в базу:
+mysql -u {MYSQL_USER} -p{MYSQL_USER test_desk < ./data/test_desk.sqk
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+Конфигурация приложения находится в config/main.php
 
-### Contribution guidelines ###
+открыть в браузере index.php
 
-* Writing tests
-* Code review
-* Other guidelines
 
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
