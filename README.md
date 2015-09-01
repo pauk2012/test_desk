@@ -7,7 +7,7 @@
 зайти в корневую директорию проекта
 
 Залить дамп данных в базу:
-mysql -u {MYSQL_USER} -p{MYSQL_USER test_desk < ./data/test_desk.sqk
+mysql -u {MYSQL_USER} -p{MYSQL_USER test_desk < ./data/test_desk.sql
 
 Конфигурация приложения находится в config/main.php
 
