@@ -28,6 +28,8 @@ class Url {
         $url['r'] = $route;
 
 
-        return '?' . http_build_query($url);
+        $url =  '?' . http_build_query($url);
+        $url = urldecode($url);
+        return $url;
     }
 }
