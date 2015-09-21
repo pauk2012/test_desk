@@ -1,0 +1,33 @@
+{
+  "name": "pauk/test_desk",
+  "description": "Test Desk.",
+  "keywords": ["yii2", "yii 2", "application", "test_desk", "bootstrap"],
+  "homepage": "http://neocasta.com",
+  "type": "project",
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/pauk2012/test_desk/issues?q=is%3Aopen",
+    "forum": "http://yiiframework.ru/forum/viewtopic.php?f=28&t=16414",
+    "source": "https://github.com/pauk2012/test_desk"
+  },
+  "authors": [
+    {
+      "name": "Pavel Khimyack",
+      "email": "paul.khimyack@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0"
+  },
+
+  "config": {
+    "process-timeout": 1800
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}

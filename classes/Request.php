@@ -17,7 +17,7 @@ class Request {
     {
         if (isset ($_GET['r'])) $route = htmlspecialchars(($_GET['r']));
         if (!isset($route)) $route = 'items/index';
-        $route = htmlspecialchars($route);
+        //$route = htmlspecialchars($route);
 
         $params = [];
         return [$route, $params];
